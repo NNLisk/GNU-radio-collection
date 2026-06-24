@@ -1,0 +1,15 @@
+.conda
+docs
+
+/custom_modules/cpp
+/gr-custom_modules/build
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+.vscode/
+.idea/
+.DS_Store

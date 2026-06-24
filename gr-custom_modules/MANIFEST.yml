@@ -1,0 +1,21 @@
+title: The CUSTOM_MODULES OOT Module
+version: 1.0
+brief: created for personal use, custom modules like ACARS signal generator
+tags: # Tags are arbitrary, but look at CGRAN what other authors are using
+  - sdr
+author:
+  - Author Name <niko.lausto@gmail.com>
+copyright_owner:
+  - Copyright NL
+license:
+gr_supported_version:
+  - 3.X
+repo: 
+website: 
+description: |-
+  # custom modules gnu radio
+  an aggregate library of utility sources and later probably filters as well
+
+  ## list of blocks
+  - acars_sig_gen | generates a repeated ACARS signal with a prekey based on parameter text
+file_format: 1

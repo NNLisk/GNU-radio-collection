@@ -1,0 +1,9 @@
+*~
+*.pyc
+*.pyo
+build*/
+examples/grc/*.py
+
+.vscode/
+.idea/
+.DS_Store
