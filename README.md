@@ -23,5 +23,5 @@ sudo ldconfig
     
 ## demo
 
-![Example flow chart](references/fc)
+![Example flow chart](references/fc.jpg)
 
