@@ -2,7 +2,7 @@
 This is my aggregate repo for custom gnu-radio blocks and adjacent things. It's a learning project but it can be used by anyone.
 
 ## quickstart
-user should be familiar with gnu-radio first
+> **Note:** requires gnu-radio
 
 ```
 # python setup
@@ -22,6 +22,24 @@ sudo ldconfig
     + transmits the prekey signal + message payload common in air-traffic communication
     
 ## demo
+<figure>
+  <img src="references/fc.jpg" alt="flowchart" width="500">
+  <figcaption><i>Figure 1: Example GNU Radio flowchart for the ACARS generator.</i></figcaption>
+</figure>
 
-![Example flow chart](references/fc.jpg)
-
+<table>
+  <tr>
+    <td align="center">
+      <img src="references/onlynoise.jpg" alt="noise" width="100%"><br>
+      <b>Gaussian noise</b>
+    </td>
+    <td align="center">
+      <img src="references/signal.jpg" alt="signal" width="100%"><br>
+      <b>ACARS Signal Burst</b>
+    </td>
+    <td align="center">
+      <img src="references/signal_zoomed.jpg" alt="signal zoomed" width="100%"><br>
+      <b>Zoomed</b>
+    </td>
+  </tr>
+</table>
